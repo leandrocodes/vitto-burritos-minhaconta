@@ -1,8 +1,15 @@
 @import 'assets/colors.css';
 @import './assets/components.css';
+@import './assets/layout.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Rubik:wght@300;400&display=swap');
 
-.badges {
-  display: flex;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Lato', sans-serif;
 }
