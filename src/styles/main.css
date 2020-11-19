@@ -1,0 +1,6 @@
+@import 'assets/colors.css';
+@import './assets/components.css';
+
+.badges {
+  display: flex;
+}

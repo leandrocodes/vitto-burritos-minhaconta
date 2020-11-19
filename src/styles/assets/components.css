@@ -1,0 +1,14 @@
+@import './colors.css';
+
+.badge {
+  background: var(--light-gray);
+  color: var(--light-text);
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+}
+
+.badge.__cashback {
+  background: var(--green);
+  color: white;
+  font-weight: bold;
+}
