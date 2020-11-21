@@ -57,3 +57,19 @@
   background-color: #ffffff88;
   color: var(--dark);
 }
+
+.location {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 2rem;
+}
+
+.location__pin {
+  background-color: rgba(0, 0, 0, 0.45);
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+}
