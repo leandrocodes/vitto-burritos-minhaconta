@@ -73,3 +73,16 @@
   align-items: center;
   border-radius: 50%;
 }
+
+.location__st {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.45);
+  border-radius: 5px;
+  max-height: 40px;
+  padding: 0 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 1rem;
+  font-weight: 100;
+}
