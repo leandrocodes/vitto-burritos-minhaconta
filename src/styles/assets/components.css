@@ -1,15 +1,31 @@
 @import './colors.css';
 
+.badges {
+  display: flex;
+  width: 100%;
+}
+
 .badge {
   background: var(--light-gray);
   color: var(--light-text);
   padding: 0.5rem 0.75rem;
   text-align: center;
+  margin-right: auto;
 }
 
-.badge.__cashback {
+.badge__cashback {
   background: var(--green);
   color: white;
+  font-weight: bold;
+  padding: 0.5rem 0.75rem;
+  text-align: center;
+  margin-right: auto;
+}
+
+.badge__open {
+  color: var(--green);
+  border: 2px solid var(--green);
+  padding: 0.5rem 1rem;
   font-weight: bold;
 }
 

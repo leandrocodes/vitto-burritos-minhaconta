@@ -3,7 +3,7 @@
 .hero {
   position: relative;
   overflow: hidden;
-  height: 350px;
+  height: 300px;
   width: 100%;
 }
 
@@ -15,7 +15,7 @@
   top: 0;
   left: 0;
   z-index: -1;
-  background: url('../../media/img/burrito.jpg') no-repeat center center;
+  background: url('../../media/img/burrito.jpg') no-repeat center -50px;
   background-size: cover;
   transform: rotate(180deg);
 }
@@ -61,7 +61,7 @@
 .location {
   display: flex;
   justify-content: flex-end;
-  margin-top: 2rem;
+  margin-top: 3rem;
 }
 
 .location__pin {
@@ -85,4 +85,56 @@
   align-items: center;
   margin-left: 1rem;
   font-weight: 100;
+}
+
+header.container {
+  width: calc(100% - 20rem);
+  height: 200px;
+  position: relative;
+}
+
+.details {
+  position: absolute;
+  top: -6rem;
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0 0px -0.1px rgba(0, 0, 0, 0), 0 0px 1.4px rgba(0, 0, 0, 0.001),
+    0 0px 5.6px rgba(0, 0, 0, 0.001), 0 0px 14.1px rgba(0, 0, 0, 0.002),
+    0 0px 31.8px rgba(0, 0, 0, 0.004), 0 0px 80px rgba(0, 0, 0, 0.01);
+  padding: 2rem;
+}
+
+.details__logo {
+  width: 150px;
+  height: 150px;
+  float: left;
+}
+
+.details__main {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  float: left;
+  width: 69%;
+  max-width: 700px;
+  height: 100%;
+  margin-left: 1.5rem;
+}
+
+.details__name {
+  margin-bottom: 0.5rem;
+}
+
+.details__street {
+  margin-bottom: 1rem;
+  font-weight: 100;
+  color: var(--light-text);
+}
+
+.details__is-open {
+  float: right;
 }
