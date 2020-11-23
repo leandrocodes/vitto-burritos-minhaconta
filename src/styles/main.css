@@ -1,6 +1,7 @@
 @import 'assets/colors.css';
 @import './assets/components.css';
 @import './assets/layout.css';
+@import './assets/mobile.css';
 
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&family=Rubik:wght@300;400&display=swap');
 

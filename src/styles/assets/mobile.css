@@ -1,0 +1,65 @@
+@media only screen and (max-width: 768px) {
+  .hero {
+    display: none;
+  }
+
+  header.container {
+    display: none;
+  }
+
+  .details {
+    display: none;
+  }
+
+  .profile {
+    padding: 0 2rem;
+  }
+
+  .my-account {
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .profile__details {
+    border-radius: 15px 15px 5px 5px;
+    width: 100%;
+    float: none;
+    margin-right: 0;
+  }
+
+  .profile__actions {
+    float: none;
+  }
+
+  .profile__action {
+    margin: 2rem 0;
+    height: 100px;
+    width: 45%;
+  }
+}
+
+.mobile__nav {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 65px;
+  background-color: white;
+  box-shadow: 0px 0px 6px #00000029;
+}
+
+.mobile__nav ul {
+  list-style: none;
+  display: flex;
+  width: 100%;
+  height: 100%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media only screen and (min-width: 768px) {
+  .mobile__nav {
+    display: none;
+  }
+}
