@@ -105,12 +105,12 @@ header.container {
     0 0px 5.6px rgba(0, 0, 0, 0.001), 0 0px 14.1px rgba(0, 0, 0, 0.002),
     0 0px 31.8px rgba(0, 0, 0, 0.004), 0 0px 80px rgba(0, 0, 0, 0.01);
   padding: 2rem;
+  display: flex;
 }
 
 .details__logo {
   width: 150px;
   height: 150px;
-  float: left;
 }
 
 .details__main {
@@ -118,11 +118,11 @@ header.container {
   flex-direction: column;
   align-items: flex-start;
   justify-content: flex-end;
-  float: left;
-  width: 69%;
-  max-width: 700px;
+  width: 75%;
+  max-width: 750px;
   height: 100%;
   margin-left: 1.5rem;
+  float: left;
 }
 
 .details__name {
@@ -136,7 +136,9 @@ header.container {
 }
 
 .details__is-open {
-  float: right;
+  position: absolute;
+  top: 25%;
+  right: 2rem;
 }
 
 .my-account {

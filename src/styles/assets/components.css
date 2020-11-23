@@ -3,6 +3,7 @@
 .badges {
   display: flex;
   width: 100%;
+  justify-content: space-between;
 }
 
 .badge {
@@ -10,7 +11,6 @@
   color: var(--light-text);
   padding: 0.5rem 0.75rem;
   text-align: center;
-  margin-right: auto;
 }
 
 .badge__cashback {
@@ -19,13 +19,12 @@
   font-weight: bold;
   padding: 0.5rem 0.75rem;
   text-align: center;
-  margin-right: auto;
 }
 
 .badge__open {
   color: var(--green);
   border: 2px solid var(--green);
-  padding: 0.5rem 1rem;
+  padding: 0.25rem 0.575rem;
   font-weight: bold;
 }
 
